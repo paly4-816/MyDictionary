@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/bottom_navigation_menu"
+            app:startDestination="@id/list_item">
+    <fragment android:id="@+id/list_item" android:name="com.example.mydictionary.ListItemFragment"
+              android:label="fragment_list_item" tools:layout="@layout/fragment_list_item"/>
+    <fragment android:id="@+id/lesson_item" android:name="com.example.mydictionary.LessonFragment"
+              android:label="fragment_lesson" tools:layout="@layout/fragment_lesson"/>
+    <fragment android:id="@+id/statistics_item" android:name="com.example.mydictionary.StatisticsFragment"
+              android:label="fragment_statistics" tools:layout="@layout/fragment_statistics"/>
+</navigation>
