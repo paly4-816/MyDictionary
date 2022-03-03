@@ -3,4 +3,7 @@
     <item name="list_item" type="id"/>
     <item name="lesson_item" type="id"/>
     <item name="statistics_item" type="id"/>
+    <item name="add_word_item" type="id"/>
+    <item name="add_word_button" type="id"/>
+
 </resources>

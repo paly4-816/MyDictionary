@@ -9,6 +9,6 @@
               android:label="fragment_lesson" tools:layout="@layout/fragment_lesson"/>
     <fragment android:id="@+id/statistics_item" android:name="com.example.mydictionary.StatisticsFragment"
               android:label="fragment_statistics" tools:layout="@layout/fragment_statistics"/>
-    <fragment android:id="@+id/addWordFragment" android:name="com.example.mydictionary.AddWordFragment"
+    <fragment android:id="@+id/add_word_item" android:name="com.example.mydictionary.AddWordFragment"
               android:label="fragment_add_word" tools:layout="@layout/fragment_add_word"/>
 </navigation>
